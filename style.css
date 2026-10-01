@@ -45,3 +45,9 @@
   .feature-copy,.panorama-copy{padding:4rem 6vw;}
   .feature-copy h2,.panorama h2{font-size:clamp(2.5rem,12vw,3.8rem);line-height:1.02;}
 }
+
+
+/* Client experience gallery */
+.client-voices{max-width:1400px;margin:auto;padding:9rem 6vw}.voices-gallery{display:grid;grid-template-columns:repeat(3,1fr);grid-auto-rows:290px;gap:1rem}.voices-gallery figure{margin:0;overflow:hidden;background:#dfe5e5}.voices-gallery figure.wide{grid-column:span 2}.voices-gallery img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .55s ease}.voices-gallery figure:hover img{transform:scale(1.035)}
+@media(max-width:1000px){.client-voices{padding:7rem 6vw}.voices-gallery{grid-template-columns:1fr 1fr;grid-auto-rows:250px}}
+@media(max-width:700px){.client-voices{padding:6rem 6vw}.voices-gallery{grid-template-columns:1fr;grid-auto-rows:230px}.voices-gallery figure.wide{grid-column:auto}}
